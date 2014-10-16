@@ -1,0 +1,21 @@
+datasets/
+results/
+profile_results/
+figures/
+tests/
+sandbox/
+report_plots/
+plots/
+libraries/*
+main/testing_*
+exceptions.txt
+
+# Windows default autosave extension
+*.asv
+
+# OSX / *nix default autosave extension
+*.m~
+
+# Compiled MEX binaries (all platforms)
+*.mex*
+*.nfs*
