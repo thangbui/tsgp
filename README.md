@@ -15,22 +15,25 @@ Gaussian process regression can be accelerated by constructing a small pseudo-da
 
 ------
 
-Required: 
-
-GPML package
+Required: GPML package
 
 To get started, check out a toy regression example by running:
 
 run gpmlpath/startup.m
+
 addpath main
+
 addpath exps
+
 addpath util
+
 addpath vfeGP
+
 run_toy
 
 ---
 Package details:
 
-main: model + inference/training code
-vfeGP: implementation of Titsias (2009) paper
-exps: experimental set ups to reproduce results in the paper
+* main: model + inference/training code
+* vfeGP: implementation of Titsias (2009) paper
+* exps: experimental set ups to reproduce results in the paper
